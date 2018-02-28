@@ -56,6 +56,11 @@ p {
   background-size: cover;
   
 }
+#profile-pic{
+  background-image: url("../photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #savorlogo{
   height:400px;
