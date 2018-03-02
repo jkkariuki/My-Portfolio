@@ -48,6 +48,7 @@ p {
 #savorimage{
   background-image: url("../1.jpg");
   background-repeat: no-repeat;
+
 }
 
 #gamrdiv{
@@ -76,7 +77,8 @@ p {
 #profile-pic{
   height:260px;
   width:260px;
-  border-radius: 100px
+  border-radius: 100px;
+  margin: 10px
 }
 
 .header{
@@ -92,7 +94,17 @@ ul{
 }
 
 #experience{
-  background-image: url('white-wood(1).jpgss')
+  background-image: url('white-wood(1).jpgss');
+  background-color:#ffcc66;
+  
+}
+#skills{
+  background-color:#ffcc66;
+  
+}
+
+#aboutMe{
+  background-color:#ffcc66;
 }
 
 .icon-block {
