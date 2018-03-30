@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ *{
+  font-family: 'Berkshire Swash', cursive;
+ }
 
 nav ul a,
 nav .brand-logo {
@@ -32,16 +35,27 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
-  }
+      }
   #index-banner .section {
     top: 10%;
+  } 
+    
+  #aboutMe .container{
+    width: 100%;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  
+
+  .row .col.s12{
+    height: 65%;
+    width: 65%;
+    margin: 10px 17.5% ;
   }
 }
 
@@ -58,13 +72,41 @@ p {
   
 }
 #profile-pic{
-  background-image: url("../photo1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: inline-block;
+}
+
+#aboutme{
+  display: inline-block;
 }
 
 #savorlogo{
   height:400px;
+}
+
+.icons{
+  font-size: 4em;
+  display: inline-block;
+  margin: 0px, 3px;
+}
+#savor-panel{
+  color: white;
+
+}
+
+#story{
+  margin-top: 20px;
+}
+#gamr-panel{
+color: white;
+
+
+
+}
+
+#project-link{
+  color: white;
 }
 
 #gamrlogo{
@@ -75,10 +117,27 @@ p {
 }
 
 #profile-pic{
-  height:260px;
-  width:260px;
+  height:60%;
+  width:60%;
   border-radius: 100px;
-  margin: 10px
+  margin-left: 17.5%;
+  
+}
+
+#icon-list a{
+  height: 40px
+
+}
+
+#linkedinicon{
+  height: 50px;
+  width: 50px;
+}
+
+
+#githubicon{
+height: 50px;
+  width: 50px;
 }
 
 .header{
@@ -87,7 +146,7 @@ p {
 
 ul{
   text-align: center;
-}s
+}
 
 #header{
   margin-top: 100px
@@ -107,6 +166,21 @@ ul{
   background-color:#ffcc66;
 }
 
+#savor-img{
+  height: 180px;
+  width: 100%
+}
+
+#gamr-img{
+  height: 180px;
+  width: 100%
+}
+
+#nyt-img{
+  height: 180px;
+  width: 100%
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -117,3 +191,41 @@ ul{
 footer.page-footer {
   margin: 0;
 }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.middle-indicator{
+   position:absolute;
+   top:50%;
+   }
+  .middle-indicator-text{
+   font-size: 4.2rem;
+  }
+  a.middle-indicator-text{
+    color:white !important;
+  }
+.content-indicator{
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+  }
+    .indicators{
+    visibility: hidden;
+  }
