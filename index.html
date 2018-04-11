@@ -21,14 +21,14 @@
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#myprojects">My Work</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
             </ul>
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#myprojects">My Work</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
@@ -58,7 +58,7 @@
                 </div>
                 <div id="story" style= "display: inline-block" class="col s12 m7 l8">
 
-                  I am a junior developer and an education professional. I decided to learn to code partly because I want to inspire more diverse students to pursue studies and careers in technology. I am passionate about closing the educational opportunity and career achievement gaps that exist in our country. The technology industry, which has famously struggled to find and keep diverse talent, offers one way to help shrink that gap as career prospects improve at an immense rate. As a full stack developer I know that I can speak to students credibly about the opportunities that are piling up in the tech industry, but more importantly I can show students how they can use technology to bring their ideas to life. 
+                  I am a junior fullstack web developer with a background in education. I am passionate about using technology as a means to closing the educational opportunity and career achievement gaps that exist in our country. I  offers one way to help shrink that gap as career prospects improve at an immense rate. As a full stack developer I know that I can speak to students credibly about the opportunities that are piling up in the tech industry, but more importantly I can show students how they can use technology to bring their ideas to life. 
                 </div>                                             
             </div>
         </div>
@@ -75,13 +75,13 @@
                     <div class="icon-block">
                         
                         <p class="light">
-                            <h5 class="center"><strong> My Skills</strong></h5>                           
+                             
                                 
                             <ul>
                                 <li class="icons"><i class="devicon-mongodb-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-mysql-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-express-original-wordmark colored"></i></li>
-                                <li class="icons"><i class="devicon-react-original-wordmark colored"></i></li>
+                                <div id="spinningReact"><li class="icons"><i class="devicon-react-original-wordmark colored"></i></li></div>
                                 <li class="icons"><i class="devicon-nodejs-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-jquery-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
@@ -96,19 +96,19 @@
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center"> 
-                    <h3><strong> My Projects</strong></h3>                           
-                    <div id="savor-panel" class="col s12 m4 l4" href="#one!">
+                    <h3 id="myprojects" ><strong> My Projects</strong></h3>                           
+                    <div id="savor-panel" class="col s12 m4 l4 project" href="#one!">
                         
                             <a href="https://sheltered-tundra-23907.herokuapp.com/"><img id="savor-img" src="assets/savorthumbnail.png"></a>
                          <p>Grocery Item app that allows users to find recipes based on items currently in their food pantry.The app uses the Edamam API which boasts a robust database of recipes.</p>               
                                                         
                     </div>
-                    <div id="gamr-panel" class="col s12 m4 l4" href="#two!">
+                    <div id="gamr-panel" class="col s12 m4 l4 project" href="#two!">
                             <a href="https://jkkariuki.github.io/GAMR./"><img id="gamr-img" src="assets/gamrthumbnail.png"></a> 
                         <p>A video game search engine that allows users to find media related to any video game on any of the main video game platforms.</p>
 
                     </div>
-                    <div id="nyt-panel" class="col s12 m4 l4" href="#two!">
+                    <div id="nyt-panel" class="col s12 m4 l4 project" href="#two!">
                             <a href="https://evening-shore-59067.herokuapp.com/"><img id="nyt-img" src="assets/nytimesthumbnail.png"></a>
                         <p>MERN application which allows users to search for, save , and delete New York Times Articles. Users can narrow their searches using key words and specific dates.</p>
                     </div>               
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Contact Me</h4>
+                    <h4 id="contactme" >Contact Me</h4>
                     <div class="row">                            
                     <form  action="https://formspree.io/jkkariuki15@gmail.com" class="col s12" method="POST">
                             <div class="input-field col s12 m4">

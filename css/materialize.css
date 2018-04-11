@@ -3390,7 +3390,7 @@ nav ul a span.badge {
 
 .section {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
 }
 
 .section.no-pad {
