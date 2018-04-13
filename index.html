@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>JamesKariuki.com</title>
     <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/css?family=Russo+One+Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One+Berkshire+Swash|Raleway|Philosopher" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -18,24 +18,31 @@
 </head>
 
 <body>
-    <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#myprojects">My Work</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-            </ul>
-            <ul id="nav-mobile" class="side-nav">
+    <div class="navbar-fixed">                
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="right hide-on-med-and-down">
                     <li><a href="#aboutMe">About Me</a></li>
                     <li><a href="#myprojects">My Work</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#myprojects">My Work</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
+                <div id="logoTag" style="margin-top: 10%">
+                    <h1 style="color: black" class="center">James Kariuki</h1>
+                    <h3 style="color: black" class="center">Full Stack Web Developer</h3>
+                </div>
+                    
                 <br>
                 <br>
                 <br>
@@ -51,14 +58,14 @@
     <div id="aboutMe" class="container">
         <div class="section">
             <div class="row">
-                <h5 class="center">James Kariuki</h5>
+                
                 <div style= "display: inline-block" class="col s12 m5 l3">                             
                     <img id="profile-pic" src="photo1.jpg"> 
                   
                 </div>
                 <div id="story" style= "display: inline-block" class="col s12 m7 l8">
 
-                  I am a junior fullstack web developer with a background in education. I am passionate about using technology as a means to closing the educational opportunity and career achievement gaps that exist in our country. I  offers one way to help shrink that gap as career prospects improve at an immense rate. As a full stack developer I know that I can speak to students credibly about the opportunities that are piling up in the tech industry, but more importantly I can show students how they can use technology to bring their ideas to life. 
+                  I am a full stack web developer with a background in education. I live for the moments of success after struggling to hack away at a problem for hours, sometimes days. I sweat the details and enjoy building anything from small business websites to rich interactive web applications. If you are a business seeking to improve your web presence or an employer looking for a web developer, feel free to contact me <a href="#contactme">here</a>.    
                 </div>                                             
             </div>
         </div>
@@ -75,13 +82,14 @@
                     <div class="icon-block">
                         
                         <p class="light">
-                             
+                                
+                                
                                 
                             <ul>
                                 <li class="icons"><i class="devicon-mongodb-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-mysql-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-express-original-wordmark colored"></i></li>
-                                <div id="spinningReact"><li class="icons"><i class="devicon-react-original-wordmark colored"></i></li></div>
+                                <li class="icons"><i class="devicon-react-original-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-nodejs-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-jquery-plain-wordmark colored"></i></li>
                                 <li class="icons"><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
@@ -115,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="blackpattern.jpg" alt="Unsplashed background img 2"></div>        
+        <div class="parallax" style="min-height: 550px" ><img src="acatia.jpg" alt="Unsplashed background img 2"></div>        
     </div>
 
     <div class="container">
@@ -156,7 +164,8 @@
 
                     <ul class="nav nav-tabs nav-stacked">
                          <li id="icon-list">
-                            <a  href="www.linkedin.com/in/james-kariuki"><i id="linkedinicon" class="fab fa-linkedin"></i></a>
+                            <a  href="https://www.linkedin.com/in/james-kariuki
+                            "><i id="linkedinicon" class="fab fa-linkedin"></i></a>
                             <a  href="https://github.com/jkkariuki/"><i id="githubicon" class="fab fa-github-alt"></i></a>             
                         </li>
                     </ul>
